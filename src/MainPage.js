@@ -77,7 +77,7 @@ const MainPage = () => {
 
 
         return imageTag.map((value, idx) => {
-            console.log('안타진다!!!');
+            console.log('안타진다!!d!');
 
             const result = checkList.filter(src => src.dice === idx);
             if (result.length) {
