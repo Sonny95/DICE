@@ -77,7 +77,6 @@ const MainPage = () => {
 
 
         return imageTag.map((value, idx) => {
-            console.log('안타진다!!d!');
 
             const result = checkList.filter(src => src.dice === idx);
             if (result.length) {
@@ -134,7 +133,7 @@ const MainPage = () => {
                 break;
         }
 
-        console.log(resultCost, '::::')
+      return <div>{resultCost}</div>
     }
 
 
@@ -164,7 +163,7 @@ const MainPage = () => {
                     </div>
                     {dice && dice === checked.length ?
                         <Button onClick={() => setPage('reward')}>보상 페이지 이동 </Button> : <></>}
-
+111
                 </>
 
                 :
